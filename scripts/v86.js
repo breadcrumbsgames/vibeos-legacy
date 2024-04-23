@@ -106,7 +106,7 @@ var emulator = {},
 				fda: null,
 				filesystem: null,
 				cdrom: {
-					url: 'https://sys32.dev/assets/v86/images/warty-release-live-i386.iso',
+					url: 'https://old-releases.ubuntu.com/releases/warty/warty-release-live-i386.iso',
 				}	
 			},
 			kolibri: {
