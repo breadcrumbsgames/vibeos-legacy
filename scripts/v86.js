@@ -49,11 +49,11 @@ var emulator = {},
 			screen_container: screenRoot,
 			
 			bios: {
-				url: 'https://sys32.dev/assets/v86/bios/seabios.bin',
+				url: 'https://copy.sh/v86/bios/seabios.bin',
 			},
 			
 			vga_bios: {
-				url: 'https://sys32.dev/assets/v86/bios/vgabios.bin',
+				url: 'https://copy.sh/v86/bios/vgabios.bin',
 			},
 			
 			network_relay_url: 'wss://relay.widgetry.org/',
@@ -106,7 +106,7 @@ var emulator = {},
 				fda: null,
 				filesystem: null,
 				cdrom: {
-					url: 'https://sys32.dev/assets/v86/images/warty-release-live-i386.iso',
+					url: 'http://old-releases.ubuntu.com/releases/4.10/warty-release-live-i386.iso'
 				}	
 			},
 			kolibri: {
